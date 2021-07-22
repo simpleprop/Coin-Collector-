@@ -1,4 +1,4 @@
-alert('test');
+alert('1');
 // define variables
 var game;
 var player;
