@@ -16,7 +16,7 @@ var winningScore = 25;
 function addItems() {
   items = game.add.physicsGroup();
   createItem(375, 400, 'poison');
-  createItem(575, 500, 'star');
+  createItem(575, 500, 'poison');
   createItem(225, 500, 'poison');
   createItem(100, 250, 'poison');
   createItem(575, 150, 'poison');
@@ -26,7 +26,7 @@ function addItems() {
   createItem(375, 100, 'poison');
   createItem(370, 500, 'poison');
   createItem(100, 375, 'poison');
-  createItem(125, 50,  'poison');
+  createItem(125, 50,  'star');
 }
 
 // add platforms to the game
