@@ -1,4 +1,4 @@
-alert('1');
+alert('2');
 // define variables
 var game;
 var player;
@@ -11,7 +11,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 25;
+var winningScore = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 
 // add collectable items to the game
 function addItems() {
@@ -33,7 +33,7 @@ function addItems() {
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-  platforms.create(550, 200, 'platform2');
+  platforms.create(550, 300, 'platform2');
   platforms.create(510, 150, 'platform');
   platforms.create(470, 300, 'platform');
   platforms.create(340, 250, 'platform');
@@ -57,7 +57,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(750, 400, 'badge');
+  var badge = badges.create(210, 100, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
@@ -70,7 +70,7 @@ function itemHandler(player, item) {
   } else if (item.key === 'poison') {
      currentScore = currentScore - 25;
   } else if (item.key === 'star') {
-     currentScore = currentScore + 25;
+     currentScore = currentScore + 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
   }
   if (currentScore === winningScore) {
       createBadge();
