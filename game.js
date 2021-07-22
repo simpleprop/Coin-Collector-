@@ -16,16 +16,16 @@ var winningScore = 25;
 function addItems() {
   items = game.add.physicsGroup();
   createItem(375, 400, 'poison');
-  createItem(575, 500, 'poison');
-  createItem(225, 500, 'poison');
-  createItem(100, 250, 'poison');
-  createItem(575, 150, 'poison');
-  createItem(525, 300, 'poison');
-  createItem(650, 250, 'poison');
-  createItem(225, 200, 'poison');
-  createItem(375, 100, 'poison');
-  createItem(370, 500, 'poison');
-  createItem(100, 375, 'poison');
+  createItem(500, 500, 'poison');
+  createItem(500, 500, 'poison');
+  createItem(500, 250, 'poison');
+  createItem(500, 150, 'poison');
+  createItem(500, 300, 'poison');
+  createItem(500, 250, 'poison');
+  createItem(500, 200, 'poison');
+  createItem(500, 100, 'poison');
+  createItem(500, 500, 'poison');
+  createItem(500, 375, 'poison');
   createItem(125, 50,  'star');
 }
 
