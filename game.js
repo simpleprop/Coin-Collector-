@@ -1,4 +1,4 @@
-alert('Version - 13.1.5 Click "OK" to continue');
+alert('Version - 13.1.6 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -28,7 +28,7 @@ function addPlatforms() {
   platforms.create(500, 300, 'platform2');
   platforms.create(295, 453, 'platform2');
   platforms.create(119, 652, 'platform2');
-  platforms.create(137, 173, 'platform');
+  platforms.create(637, 173, 'platform');
   platforms.create(200, 610, 'platform');
   platforms.create(400, 189, 'platform');
   platforms.create(436, 658, 'platform');
