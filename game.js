@@ -1,4 +1,4 @@
-alert('Version - 12.9 Click "OK" to continue');
+alert('Version - 13.1.0 Click "OK" to continue');
 // define variables
 var game;
 var player;
