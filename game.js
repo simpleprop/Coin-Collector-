@@ -1,4 +1,4 @@
-alert('5');
+alert('6');
 // define variables
 var game;
 var player;
@@ -16,33 +16,22 @@ var winningScore = 1000000000000000000000000000000000000000000000000000000000000
 // add collectable items to the game
 function addItems() {
   items = game.add.physicsGroup();
-  createItem(630, 600, 'poison');
-  createItem(420, 600, 'poison');
-  createItem(260, 600, 'poison');
-  createItem(840, 600, 'poison');
-  createItem(550, 600, 'poison');
-  createItem(620, 600, 'poison');
-  createItem(110, 600, 'poison');
-  createItem(630, 600, 'poison');
-  createItem(330, 600, 'poison');
-  createItem(480, 600, 'poison');
-  createItem(290, 600, 'poison');
   createItem(120, 50,  'star');
 }
 
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-  platforms.create(230, 260, 'platform');
+  platforms.create(230, 360, 'platform');
   platforms.create(281, 556, 'platform');
-  platforms.create(250, 460, 'platform');
-  platforms.create(210, 450, 'platform2');
+  platforms.create(200, 460, 'platform');
+  platforms.create(310, 750, 'platform2');
   platforms.create(350, 560, 'platform2');
   platforms.create(550, 330, 'platform2');
-  platforms.create(670, 320, 'platform');
-  platforms.create(280, 310, 'platform');
-  platforms.create(340, 246, 'platform');
-  platforms.create(510, 160, 'platform');
+  platforms.create(670, 300, 'platform');
+  platforms.create(280, 210, 'platform');
+  platforms.create(140, 246, 'platform');
+  platforms.create(520, 160, 'platform');
   platforms.create(110, 120, 'platform2');
   platforms.setAll('body.immovable', true);
 }
