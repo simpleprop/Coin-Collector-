@@ -15,17 +15,17 @@ var winningScore = 25;
 // add collectable items to the game
 function addItems() {
   items = game.add.physicsGroup();
-  createItem(375, 400, 'poison');
-  createItem(500, 500, 'poison');
-  createItem(500, 500, 'poison');
-  createItem(500, 250, 'poison');
-  createItem(500, 150, 'poison');
-  createItem(500, 300, 'poison');
-  createItem(500, 250, 'poison');
-  createItem(500, 200, 'poison');
-  createItem(500, 100, 'poison');
-  createItem(500, 500, 'poison');
-  createItem(500, 375, 'poison');
+  createItem(634, 700, 'poison');
+  createItem(424, 700, 'poison');
+  createItem(264, 700, 'poison');
+  createItem(844, 700, 'poison');
+  createItem(554, 700, 'poison');
+  createItem(624, 700, 'poison');
+  createItem(111, 700, 'poison');
+  createItem(631, 700, 'poison');
+  createItem(334, 700, 'poison');
+  createItem(483, 700, 'poison');
+  createItem(292, 700, 'poison');
   createItem(125, 50,  'star');
 }
 
