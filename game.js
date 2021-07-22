@@ -1,4 +1,4 @@
-alert('2');
+alert('3');
 // define variables
 var game;
 var player;
@@ -57,7 +57,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(210, 100, 'badge');
+  var badge = badges.create(210, 450, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
