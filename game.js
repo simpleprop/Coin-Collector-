@@ -1,4 +1,4 @@
-alert('3');
+alert('4');
 // define variables
 var game;
 var player;
@@ -33,17 +33,17 @@ function addItems() {
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-  platforms.create(550, 300, 'platform2');
-  platforms.create(510, 150, 'platform');
-  platforms.create(470, 300, 'platform');
-  platforms.create(340, 250, 'platform');
-  platforms.create(300, 350, 'platform2');
-  platforms.create(280, 300, 'platform');
-  platforms.create(250, 450, 'platform');
-  platforms.create(230, 550, 'platform');
+  platforms.create(230, 560, 'platform');
   platforms.create(220, 550, 'platform');
+  platforms.create(250, 460, 'platform');
   platforms.create(210, 450, 'platform2');
-  platforms.create(110, 100, 'platform2');
+  platforms.create(300, 360, 'platform2');
+  platforms.create(550, 330, 'platform2');
+  platforms.create(470, 320, 'platform');
+  platforms.create(280, 310, 'platform');
+  platforms.create(340, 240, 'platform');
+  platforms.create(510, 160, 'platform');
+  platforms.create(110, 120, 'platform2');
   platforms.setAll('body.immovable', true);
 }
 
@@ -57,7 +57,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(210, 450, 'badge');
+  var badge = badges.create(210, 170, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
