@@ -1,3 +1,4 @@
+alert('test');
 // define variables
 var game;
 var player;
