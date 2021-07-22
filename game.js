@@ -1,4 +1,4 @@
-alert('11');
+alert('12');
 // define variables
 var game;
 var player;
@@ -22,16 +22,16 @@ function addItems() {
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-  platforms.create(580, 360, 'platform');
-  platforms.create(300, 500, 'platform');
-  platforms.create(200, 460, 'platform');
-  platforms.create(520, 750, 'platform2');
-  platforms.create(200, 560, 'platform2');
-  platforms.create(300, 600, 'platform2');
-  platforms.create(570, 300, 'platform');
-  platforms.create(280, 490, 'platform');
-  platforms.create(480, 240, 'platform');
-  platforms.create(640, 100, 'platform');
+  platforms.create(393, 350, 'platform');
+  platforms.create(106, 238, 'platform');
+  platforms.create(269, 642, 'platform');
+  platforms.create(427, 360, 'platform2');
+  platforms.create(495, 395, 'platform2');
+  platforms.create(619, 452, 'platform2');
+  platforms.create(307, 573, 'platform');
+  platforms.create(654, 310, 'platform');
+  platforms.create(400, 189, 'platform');
+  platforms.create(436, 658, 'platform');
   platforms.create(110, 120, 'platform2');
   platforms.setAll('body.immovable', true);
 }
