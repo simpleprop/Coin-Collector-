@@ -32,16 +32,16 @@ function addItems() {
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-  platforms.create(450, 550, 'platform');
   platforms.create(100, 550, 'platform');
-  platforms.create(300, 450, 'platform');
-  platforms.create(250, 150, 'platform');
-  platforms.create(50, 300, 'platform');
-  platforms.create(150, 250, 'platform');
-  platforms.create(650, 300, 'platform');
-  platforms.create(550, 200, 'platform2');
-  platforms.create(300, 450, 'platform2');
-  platforms.create(400, 350, 'platform2');
+  platforms.create(100, 550, 'platform');
+  platforms.create(100, 450, 'platform');
+  platforms.create(100, 150, 'platform');
+  platforms.create(100, 300, 'platform');
+  platforms.create(100, 250, 'platform');
+  platforms.create(100, 300, 'platform');
+  platforms.create(100, 200, 'platform2');
+  platforms.create(100, 450, 'platform2');
+  platforms.create(100, 350, 'platform2');
   platforms.create(100, 100, 'platform2');
   platforms.setAll('body.immovable', true);
 }
@@ -85,15 +85,15 @@ function badgeHandler(player, badge) {
 // setup game when the web page loads
 window.onload = function () {
   game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
-  
+
   // before the game begins
   function preload() {
     game.stage.backgroundColor = '#5db1ad';
-    
+
     //Load images
     game.load.image('platform', 'platform_1.png');
     game.load.image('platform2', 'platform_2.png');
-    
+
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png', 48, 62);
     game.load.spritesheet('coin', 'coin.png', 36, 44);
@@ -145,7 +145,7 @@ window.onload = function () {
     else {
       player.animations.stop();
     }
-    
+
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
       player.body.velocity.y = -400;
     }
