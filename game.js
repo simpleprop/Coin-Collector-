@@ -1,4 +1,4 @@
-alert('12');
+alert('12.1');
 // define variables
 var game;
 var player;
@@ -27,7 +27,7 @@ function addPlatforms() {
   platforms.create(269, 642, 'platform');
   platforms.create(427, 360, 'platform2');
   platforms.create(495, 395, 'platform2');
-  platforms.create(619, 452, 'platform2');
+  platforms.create(619, 152, 'platform2');
   platforms.create(307, 573, 'platform');
   platforms.create(654, 310, 'platform');
   platforms.create(400, 189, 'platform');
