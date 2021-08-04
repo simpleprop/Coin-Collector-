@@ -1,4 +1,4 @@
-alert('Version - 13.6.0 Click "OK" to continue');
+alert('Version - 13.6.1 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -11,7 +11,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+var winningScore = 100;
 
 // add collectable items to the game
 function addItems() {
@@ -70,7 +70,7 @@ function itemHandler(player, item) {
   } else if (item.key === 'poison') {
      currentScore = currentScore - 25;
   } else if (item.key === 'star') {
-     currentScore = currentScore + 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+     currentScore = currentScore + 50;
   }
   if (currentScore === winningScore) {
       createBadge();
