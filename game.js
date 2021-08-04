@@ -1,4 +1,4 @@
-alert('Version - 13.5.12 Click "OK" to continue');
+alert('Version - 13.6.0 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -18,7 +18,16 @@ function addItems() {
   items = game.add.physicsGroup();
   createItem(120, 50,  'star');
   createItem(420, 300, 'coin');
-  createItem(135, 190, 'coin');
+  createItem(175, 190, 'coin');
+  createItem(300, 590, 'coin');
+  createItem(550, 250, 'poison');
+  createItem(355, 400, 'poison');
+  createItem(150, 600, 'coin');
+  createItem(190, 630, 'poison');
+  createItem(260, 560, 'coin');
+  createItem(450, 140, 'coin');
+  createItem(495, 610, 'coin');
+  createItem(495, 610, 'coin');
 }
 
 // add platforms to the game
