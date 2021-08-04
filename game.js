@@ -1,4 +1,4 @@
-alert('Version - 13.6.1 Click "OK" to continue');
+alert('Version - 13.6.2 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -11,7 +11,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 100;
+var winningScore = 65;
 
 // add collectable items to the game
 function addItems() {
