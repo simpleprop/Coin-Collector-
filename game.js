@@ -17,6 +17,7 @@ var winningScore = 1000000000000000000000000000000000000000000000000000000000000
 function addItems() {
   items = game.add.physicsGroup();
   createItem(120, 50,  'star');
+  createItem(393, 350, 'coin');
 }
 
 // add platforms to the game
