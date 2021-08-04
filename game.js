@@ -1,4 +1,4 @@
-alert('Version - 13.5.10 Click "OK" to continue');
+alert('Version - 13.5.11 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -17,7 +17,7 @@ var winningScore = 1000000000000000000000000000000000000000000000000000000000000
 function addItems() {
   items = game.add.physicsGroup();
   createItem(120, 50,  'star');
-  createItem(350, 300, 'coin');
+  createItem(420, 300, 'coin');
 }
 
 // add platforms to the game
