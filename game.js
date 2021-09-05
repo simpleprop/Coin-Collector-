@@ -1,4 +1,4 @@
-alert('Version - 13.6.8 Click "OK" to continue');
+alert('Version - 13.6.9 Click "OK" to continue');
 alert('Winning score is 100. Dont touch the poison!');
 // define variables
 var game;
@@ -17,7 +17,7 @@ var winningScore = 100;
 // add collectable items to the game
 function addItems() {
   items = game.add.physicsGroup();
-  createItem(120, 50,  'star');
+  createItem(120, 20,  'star');
   createItem(420, 300, 'coin');
   createItem(175, 190, 'coin');
   createItem(300, 590, 'coin');
@@ -27,8 +27,8 @@ function addItems() {
   createItem(190, 630, 'poison');
   createItem(260, 560, 'coin');
   createItem(450, 140, 'coin');
-  createItem(495, 610, 'coin');
   createItem(480, 610, 'coin');
+  createItem(480, 640, 'coin');
 }
 
 // add platforms to the game
