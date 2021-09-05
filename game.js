@@ -1,4 +1,4 @@
-alert('Version - 13.6.2 Click "OK" to continue');
+alert('Version - 13.6.3 Click "OK" to continue');
 // define variables
 var game;
 var player;
@@ -27,7 +27,7 @@ function addItems() {
   createItem(260, 560, 'coin');
   createItem(450, 140, 'coin');
   createItem(495, 610, 'coin');
-  createItem(495, 620, 'coin');
+  createItem(495, 630, 'coin');
 }
 
 // add platforms to the game
