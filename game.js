@@ -1,4 +1,4 @@
-alert('Version - 13.6.18 Click "OK" to continue');
+alert('Version - 13.6.19 Click "OK" to continue');
 alert('Winning score is 100. Dont touch the poison!');
 // define variables
 var game;
@@ -12,7 +12,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 100;
+var winningScore = 110;
 
 // add collectable items to the game
 function addItems() {
