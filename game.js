@@ -1,4 +1,4 @@
-alert('Version - 13.6.11 Click "OK" to continue');
+alert('Version - 13.6.12 Click "OK" to continue');
 alert('Winning score is 100. Dont touch the poison!');
 // define variables
 var game;
@@ -28,7 +28,7 @@ function addItems() {
   createItem(260, 560, 'coin');
   createItem(450, 140, 'coin');
   createItem(480, 610, 'coin');
-  createItem(480, 640, 'coin');
+  createItem(480, 700, 'coin');
 }
 
 // add platforms to the game
@@ -44,7 +44,7 @@ function addPlatforms() {
   platforms.create(200, 610, 'platform');
   platforms.create(400, 189, 'platform');
   platforms.create(436, 658, 'platform');
-  platforms.create(80, 120, 'platform2');
+  platforms.create(60, 120, 'platform2');
   platforms.setAll('body.immovable', true);
 }
 
