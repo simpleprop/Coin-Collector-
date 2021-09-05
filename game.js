@@ -27,7 +27,7 @@ function addItems() {
   createItem(260, 560, 'coin');
   createItem(450, 140, 'coin');
   createItem(495, 610, 'coin');
-  createItem(495, 610, 'coin');
+  createItem(495, 620, 'coin');
 }
 
 // add platforms to the game
