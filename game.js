@@ -1,4 +1,4 @@
-alert('Version - 13.6.13 Click "OK" to continue');
+alert('Version - 13.6.14 Click "OK" to continue');
 alert('Winning score is 100. Dont touch the poison!');
 // define variables
 var game;
@@ -24,7 +24,7 @@ function addItems() {
   createItem(550, 250, 'poison');
   createItem(355, 400, 'poison');
   createItem(190, 600, 'coin');
-  createItem(190, 650, 'poison');
+  createItem(250, 600, 'poison');
   createItem(260, 560, 'coin');
   createItem(450, 140, 'coin');
   createItem(480, 610, 'coin');
