@@ -1,4 +1,5 @@
-alert('Version - 13.6.6 Click "OK" to continue');
+alert('Version - 13.6.7 Click "OK" to continue');
+alert('Winning score is 100. Dont touch the poison!');
 // define variables
 var game;
 var player;
