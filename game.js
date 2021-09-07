@@ -1,4 +1,4 @@
-alert('Version - 13.6.27 Click "OK" to continue');
+alert('Version - 13.6.28 Click "OK" to continue');
 alert('Winning score is 110. Collect all coins and dont touch the poison');
 // define variables
 var game;
@@ -70,7 +70,7 @@ function itemHandler(player, item) {
      currentScore = currentScore + 50;
   }
   if (currentScore === winningScore) {
-      createBadge();
+      winningMessage.text = "YOU WIN!!!";
   }
 }
 
