@@ -1,4 +1,4 @@
-alert('Version - 13.6.24 Click "OK" to continue');
+alert('Version - 13.6.25 Click "OK" to continue');
 alert('Winning score is 110. Collect all coins and dont touch the poison');
 // define variables
 var game;
@@ -23,7 +23,7 @@ function addItems() {
   createItem(300, 590, 'coin');
   createItem(550, 250, 'poison');
   createItem(355, 400, 'poison');
-  createItem(250, 600, 'poison');
+
   createItem(450, 140, 'coin');
   createItem(260, 560, 'coin');
   createItem(150, 560, 'coin');
