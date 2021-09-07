@@ -1,4 +1,4 @@
-alert('Version - 13.6.23 Click "OK" to continue');
+alert('Version - 13.6.24 Click "OK" to continue');
 alert('Winning score is 110. Collect all coins and dont touch the poison');
 // define variables
 var game;
