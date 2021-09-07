@@ -1,4 +1,4 @@
-alert('Version - 13.6.28 Click "OK" to continue');
+alert('Version - 13.6.29 Click "OK" to continue');
 alert('Winning score is 110. Collect all coins and dont touch the poison');
 // define variables
 var game;
@@ -21,10 +21,10 @@ function addItems() {
   createItem(420, 300, 'coin');
   createItem(175, 190, 'coin');
   createItem(650, 250, 'poison');
-  createItem(355, 430, 'poison');
+  createItem(400, 400, 'poison');
   createItem(450, 140, 'coin');
-  createItem(260, 540, 'coin');
-  createItem(150, 540, 'coin');
+  createItem(260, 520, 'coin');
+  createItem(150, 520, 'coin');
 }
 
 // add platforms to the game
