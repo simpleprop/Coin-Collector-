@@ -1,4 +1,4 @@
-alert('Version - 13.6.20 Click "OK" to continue');
+alert('Version - 13.6.21 Click "OK" to continue');
 alert('Winning score is 110. Dont touch the poison!');
 // define variables
 var game;
@@ -28,7 +28,7 @@ function addItems() {
   createItem(480, 610, 'coin');
   createItem(480, 700, 'coin');
   createItem(260, 560, 'coin');
-  createItem(300, 560, 'coin');
+  createItem(150, 560, 'coin');
 }
 
 // add platforms to the game
