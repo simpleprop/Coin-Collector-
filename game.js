@@ -23,8 +23,8 @@ function addItems() {
   createItem(650, 250, 'poison');
   createItem(400, 400, 'poison');
   createItem(450, 140, 'coin');
-  createItem(260, 560, 'coin');
-  createItem(150, 560, 'coin');
+  createItem(260, 550, 'coin');
+  createItem(150, 550, 'coin');
 }
 
 // add platforms to the game
